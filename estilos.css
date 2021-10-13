@@ -1,0 +1,617 @@
+body{
+
+    font-family:sans-serif;
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.wpp-icon{
+
+    display: flex;
+    position: fixed;
+    width: 90px;
+    height: auto;
+    margin-left: 10px;
+   top: 75%;
+  
+
+}
+
+.depo{
+
+    margin-left: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    
+}
+
+.conj-1{
+
+    border: 2px solid #B93330;
+    border-radius: 8px;
+    margin-left: 30px;
+    padding: 10px 10px;
+    
+}
+
+
+
+.icones-tit{
+
+    width: 150px;
+    height: 50px;
+    margin-bottom: 0;
+}
+
+.porq{
+
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.porq-icones{
+
+    display: flex;
+    flex-direction: row; 
+}
+
+
+.logo2{
+
+    display: none;
+}
+
+.exames-container{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+
+    height: 70px;
+    margin: 15px 15px;
+}
+
+.cont-Av{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+
+
+
+
+}
+
+.Av{
+  justify-items: center;
+  align-items: center;
+}
+.av-but{
+
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background: #884847
+s
+}
+
+.contatos{
+
+    margin-left: 20px;
+    margin-right: 200px;
+    margin-top: 50px;
+
+    border: 2px solid black;
+    padding: 15px 15px;
+}
+
+.confira-av {
+
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+
+
+
+}
+
+.avaliacao{
+
+
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 80px;
+
+}
+
+.cont-1-text{
+    color: #212121;
+    width: 600px;
+
+}
+.link-contato{
+    text-decoration: none;
+    color: white;
+    width: 250px;
+}
+.link-nav {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    height: 80px;
+}
+.nav-exam{
+
+    display: flex;
+    flex: row;
+}
+
+.foto-ex {
+    width: 100px;
+}
+
+.topo{
+    margin-left: 20px;
+    background-image: url("./img/jcapa_jpeg.png");
+    background-position: 100%;
+    margin-top: 0;
+    background-repeat:no-repeat;
+}
+
+.parag-topo{
+
+    font-size: 20px;
+    width: 500px;
+    border-radius: 8px;
+    background-color: #268583;
+    padding: 15px 15px;
+    color: white;
+}
+
+.naveg{
+
+    background-color: #e4e4e4;
+    margin-bottom: 0;
+
+}
+.tipo-exame{
+    border-radius: 8px ;
+    width: 120px;
+    border-color: #00796B;
+   height: 200px;
+    display: flex;
+    padding: 10px 10px;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 5px;
+    background-color: #00796B;
+}
+
+
+.foto-jund{
+
+    display: none;
+}
+
+
+.local{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+
+.ex-img{
+
+    height: 80px;
+    width: auto;
+
+}
+
+
+button {
+
+    text-decoration: none;
+}
+
+.bot-princ{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px 5px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    color: white;
+    background-color: #B93330;
+    width: 200px;
+
+}
+
+.imagem-slider {
+
+   border-radius: 10px; 
+
+
+}
+
+
+.foto-jund2{
+
+    display: flex;
+    width: 600px;
+    height: auto;
+    margin-top: 50px;
+}
+.seta{
+
+    height: 50px;
+
+
+}
+.Av{
+
+    background-color: #268583;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.ic-porq{
+
+    height: 85px;
+    width: auto;
+    
+}
+
+.conj-1 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 30px;
+
+
+}
+
+.parag-mob{
+
+    visibility: hidden;
+    height: 0;
+
+}
+
+.icone-local{
+
+
+    height: 50px;
+    width: auto;
+}
+
+
+
+.endereco-col{
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.but-local{
+
+    border-radius: 8px;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.endereco-p{
+    margin-left: 20px;
+}
+
+
+.titulo-endereco{
+
+    font-size: 30px;
+}
+.text-local{
+
+    margin-left: 0px;
+}
+
+.link-local{ margin-left: 0px;}
+
+
+
+@media (max-width:900px) {
+
+    body{
+        width: 300px;
+        align-content: center;
+        justify-content: center;
+    
+    }
+
+    .local{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .endereco{
+
+        margin-left: 10px;
+    }
+    .contatos{
+
+        margin-left: 30px;
+        margin-right: 0;
+        width: 280px;
+    }
+
+    .at-p{
+        margin-left: 30px;
+    }
+
+
+    .foto-jund{
+
+
+        width: 280px;
+        height: auto;
+        display: flex;
+    }
+    
+
+    .foto-jund2{
+
+        display: none;
+    }
+
+    .cont-Av{
+
+        margin-left: 10px;
+        align-content: left;
+        justify-content: left;
+        justify-items: left;
+        text-align: left;
+        
+    }
+    .av-but{
+
+        margin-left: 50px;
+    }
+    .at-ex{
+
+
+        margin-left: 40px;
+    }
+    .porq-icones{
+
+        margin-left: 30px;
+    }
+
+
+    .mapa-google{
+
+
+
+        width: 400px;
+    }
+
+
+    .avaliacao{
+
+
+        height: auto;
+        width: 250px;
+        border-radius: 10px;
+        margin-left: 30px;
+    
+    }
+
+    .conj-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-left: 10px;
+
+
+    }
+
+    .porq-icones{
+
+        display: flex;
+        flex-direction: column; 
+        margin-bottom: 5px;
+    }
+
+    .naveg {
+
+        visibility: hidden;
+        height: 0;
+    }
+    .topo {
+
+        width: 100%;
+        
+    }
+
+
+    .cont-1-text{
+
+            width: 80%;
+    
+        font-size: 20px;
+        text-size-adjust:inherit;
+
+    }
+    .parag-topo{
+
+     display: none;
+    
+    }
+
+    .nav-exam{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-content: space-between;
+
+        
+    }
+    .exames-container{
+
+        display: flex;
+        flex-direction: row;
+        
+
+    }
+
+    .botoes{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    .parag-mob{
+        width:  70%;
+        height: fit-content;
+        visibility: visible;
+        color: black;
+    }
+
+    #nome{
+
+        display: none;
+    }
+
+    .logo2{
+        padding-top: 5px;
+       width:  70%;
+       display:flex;
+    }
+
+    .porq{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items:baseline;
+        justify-content: left ;
+        margin-left: 20px;
+    }
+
+    .porq-h2{
+        width:  270px;
+        margin-left: 5px;
+    }
+
+    
+    .porq-p{
+        width:  80%;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+
+    h2{
+        width:  80%;
+    }
+    p{
+        width:  80%;
+    }
+
+    .Av{
+        margin-left: 0;
+        width: 400px;
+        flex-direction: column;
+        align-content: left;
+        justify-content: left;
+        justify-items: left;
+        text-align: left;
+        
+        
+    }
+
+    .depo{
+        margin-left: 0;
+    }
+    .imagem-slider{
+
+        height: auto;
+        width: 250px;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+    .setaesq {
+
+        margin-right: 0;
+    }
+
+    .setadir{
+
+        margin-left: 0;
+    }
+
+
+  
+    
+}
+
+.tipo-exame:hover{
+
+
+    background-color: #884847;
+    width: 150px;
+    
+
+}
+
+
+.wpp-icon:hover{
+    
+    width: 150px;
+}
+
+
+.but-local:hover{
+
+    background-color: yellow;
+
+
+}
+.wpp-topo{
+
+    width: 20px;
+    height: auto;
+
+
+}
